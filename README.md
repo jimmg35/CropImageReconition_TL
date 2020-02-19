@@ -4,3 +4,4 @@
 # Objective
   The dataset includes four types of crop image which are Rice, Banana tree, Green onion and Sugarcane, and we anticipated to achieve image recognition using Deep Learning. Besides, we decided to employ a common strategy known as Transfer Learning.
 # Implementation
+  Source code are stored in script folder.
