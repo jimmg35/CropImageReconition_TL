@@ -1,0 +1,59 @@
+2020-01-29 13:06 INFO Models will be stored in C:\Users\iadc\Jim_CropImage\result\attempt_06\models
+2020-01-29 13:06 INFO Charts will be stored in C:\Users\iadc\Jim_CropImage\result\attempt_06\chart
+2020-01-29 13:06 INFO Log will be stored in C:\Users\iadc\Jim_CropImage\result\attempt_06\log
+2020-01-29 13:06 INFO ============================================================================
+2020-01-29 13:06 INFO Loading images...
+2020-01-29 13:08 INFO Data loading complete
+2020-01-29 13:08 INFO ============================================================================
+2020-01-29 13:08 INFO images_array_size = (4875, 224, 224, 3) , total number of data = (4875,)
+
+2020-01-29 13:08 INFO number of training data of each class:
+2020-01-29 13:08 INFO Rice:1518 , SugarCane:1024 , BananaTree:316 , GreenOnion:262
+
+2020-01-29 13:08 INFO number of validation data of each class:
+2020-01-29 13:08 INFO Rice:357 , SugarCane:277 , BananaTree:81 , GreenOnion:65
+
+2020-01-29 13:08 INFO number of testing data of each class:
+2020-01-29 13:08 INFO Rice:442 , SugarCane:329 , BananaTree:116 , GreenOnion:88
+
+2020-01-29 13:08 INFO One hot encoding matrix shape (Train):(3120, 4)
+2020-01-29 13:08 INFO One hot encoding matrix shape (Val):(780, 4)
+2020-01-29 13:08 INFO One hot encoding matrix shape (Test):(975, 4)
+
+2020-01-29 13:08 INFO ImageDataGenerator times(Train):30
+2020-01-29 13:08 INFO ImageDataGenerator times(Val):10
+2020-01-29 13:08 INFO ============================================================================
+
+2020-01-29 13:08 INFO Flatten complete --ResNet
+2020-01-29 13:08 INFO Flatten complete --VGG
+2020-01-29 13:08 INFO Flatten complete --MobileNet
+
+2020-01-29 13:08 INFO Freeze mode:True
+
+2020-01-29 13:08 INFO Universal Classifier mode:False
+
+2020-01-29 13:08 INFO Construction complete
+
+2020-01-29 13:08 INFO ============================Model Hyperparameters=============================
+
+2020-01-29 13:08 INFO ResNet:
+2020-01-29 13:08 INFO Learning_rate = 0.001
+2020-01-29 13:08 INFO Epochs = 10
+
+2020-01-29 13:08 INFO VGG:
+2020-01-29 13:08 INFO Learning_rate = 0.001
+2020-01-29 13:08 INFO Epochs = 10
+
+2020-01-29 13:08 INFO MobileNet:
+2020-01-29 13:08 INFO Learning_rate = 0.001
+2020-01-29 13:08 INFO Epochs = 10
+
+2020-01-29 13:08 INFO Start training ResNet based network
+2020-01-29 14:52 INFO Training completes
+
+2020-01-29 14:52 INFO Start training VGG based network
+2020-01-29 16:11 INFO Training completes
+
+2020-01-29 16:11 INFO Start training MobileNet based network
+2020-01-29 17:04 INFO Training completes
+
